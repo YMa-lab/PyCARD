@@ -845,7 +845,7 @@ Users interested in the statistical formulation, original R implementation, or o
 
 # PyCARD Repository
 
-https://github.com/faishim/PyCARD
+https://github.com/YMa-lab/PyCARD
 
 The STAR Protocols release corresponds to:
 
@@ -867,7 +867,7 @@ Please also cite the PyCARD STAR Protocols article once its final bibliographic 
 
 The PyCARD source code is available from:
 
-https://github.com/faishim/PyCARD
+https://github.com/YMa-lab/PyCARD
 
 The Version 1.0.1 repository contains the Python implementation and the C++ / `pybind11` source code required to build the accelerated CARD modules.
 
