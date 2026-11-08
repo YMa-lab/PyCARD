@@ -19,7 +19,7 @@ PyCARD Version 1.0.1 is the software version used for the accompanying STAR Prot
 The current release has been independently validated in a clean Conda environment on Ubuntu / WSL Ubuntu using Python 3.10.19.
 
 <p align="center">
-  <img src="docs/figures/graphical_abstract.png" alt="PyCARD graphical abstract" width="650">
+  <img src="docs/figures/Graphical_Abstract.jpg" alt="PyCARD graphical abstract" width="650">
 </p>
 
 ## Overview
@@ -27,7 +27,7 @@ The current release has been independently validated in a clean Conda environmen
 PyCARD organizes spatial transcriptomics inputs, optional scRNA-seq reference data or marker-gene information, deconvolution outputs, and downstream analyses in a Python-centered workflow. Reference-based CARD and reference-free CARDfree are supported, together with optional single-cell mapping, spatial resolution enhancement, visualization, and reproducible performance benchmarking.
 
 <p align="center">
-  <img src="docs/figures/figure1_pycard_workflow.png" alt="Overview of the PyCARD workflow" width="900">
+  <img src="docs/figures/Figure_01.jpg" alt="Overview of the PyCARD workflow" width="900">
 </p>
 
 *Figure 1. Overview of the PyCARD workflow. Input preparation is followed by construction of reference-based CARD or reference-free CARDfree objects, spatially informed deconvolution, and optional downstream analysis.*
@@ -52,7 +52,7 @@ PyCARD implements the CARD workflow in Python while preserving the core spatiall
 This repository is an implementation and workflow resource rather than a replacement for the original CARD methodological description. For the full statistical formulation, biological motivation, and original validation of CARD, see the original publication and project documentation listed below.
 
 <p align="center">
-  <img src="docs/figures/figure4_card_deconvolution.png" alt="CARD deconvolution process" width="900">
+  <img src="docs/figures/Figure_04.jpg" alt="CARD deconvolution process" width="900">
 </p>
 
 *Figure 4. CARD deconvolution process. The CARD framework combines cell-type-specific basis information, initialized abundance estimates, and a spatial kernel derived from spatial coordinates; candidate `phi` values are evaluated and the estimated spatial proportions and diagnostics are stored in the CARD object.*
@@ -622,7 +622,7 @@ visual_scmapping
 ```
 
 <p align="center">
-  <img src="docs/figures/figure8_visualization_enhancement.png" alt="Visualization and spatial resolution enhancement" width="900">
+  <img src="docs/figures/Figure_08.jpg" alt="Visualization and spatial resolution enhancement" width="900">
 </p>
 
 *Figure 8. Visualization and spatial resolution enhancement. PyCARD visualizes deconvolution results at the original spot resolution and can optionally generate model-derived higher-resolution representations.*
@@ -847,6 +847,9 @@ Users interested in the statistical formulation, original R implementation, or o
 
 https://github.com/YMa-lab/PyCARD
 
+Archived software release (Zenodo DOI):
+https://doi.org/10.5281/zenodo.24023828
+
 The STAR Protocols release corresponds to:
 
 ```text
@@ -856,9 +859,13 @@ Git tag: v1.0.1
 
 # Citation
 
-If you use PyCARD, please cite the original CARD publication:
+If you use PyCARD, please cite the PyCARD software release:
 
-Ying Ma and Xiang Zhou. **Spatially informed cell-type deconvolution for spatial transcriptomics.** *Nature Biotechnology* 40, 1349–1359 (2022).
+Shim, F. (2026). PyCARD v1.0.1. Zenodo. https://doi.org/10.5281/zenodo.24023828
+
+Please also cite the original CARD publication:
+
+Ying Ma and Xiang Zhou. Spatially informed cell-type deconvolution for spatial transcriptomics. Nature Biotechnology 40, 1349–1359 (2022).
 
 Please also cite the PyCARD STAR Protocols article once its final bibliographic information is available.
 
