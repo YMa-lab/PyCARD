@@ -30,7 +30,7 @@ PyCARD organizes spatial transcriptomics inputs, optional scRNA-seq reference da
   <img src="docs/figures/Figure_01.jpg" alt="Overview of the PyCARD workflow" width="900">
 </p>
 
-*Figure 1. Overview of the PyCARD workflow. Input preparation is followed by construction of reference-based CARD or reference-free CARDfree objects, spatially informed deconvolution, and optional downstream analysis.*
+*Overview of the PyCARD workflow. Input preparation is followed by construction of reference-based CARD or reference-free CARDfree objects, spatially informed deconvolution, and optional downstream analysis.*
 
 ## Background: CARD
 
@@ -55,7 +55,7 @@ This repository is an implementation and workflow resource rather than a replace
   <img src="docs/figures/Figure_04.jpg" alt="CARD deconvolution process" width="900">
 </p>
 
-*Figure 4. CARD deconvolution process. The CARD framework combines cell-type-specific basis information, initialized abundance estimates, and a spatial kernel derived from spatial coordinates; candidate `phi` values are evaluated and the estimated spatial proportions and diagnostics are stored in the CARD object.*
+*CARD deconvolution process. The CARD framework combines cell-type-specific basis information, initialized abundance estimates, and a spatial kernel derived from spatial coordinates; candidate `phi` values are evaluated and the estimated spatial proportions and diagnostics are stored in the CARD object.*
 
 ## Version and STAR Protocols release
 
@@ -118,10 +118,10 @@ PyCARD/
 │
 ├── docs/
 │   └── figures/
-│       ├── graphical_abstract.png
-│       ├── figure1_pycard_workflow.png
-│       ├── figure4_card_deconvolution.png
-│       └── figure8_visualization_enhancement.png
+│       ├── Figure_01.jpg
+│       ├── Figure_04.jpg
+│       ├── Figure_08.jpg
+│       └── Graphical_Abstract.jpg
 │
 ├── CMakeLists.txt
 ├── main.py
@@ -625,7 +625,7 @@ visual_scmapping
   <img src="docs/figures/Figure_08.jpg" alt="Visualization and spatial resolution enhancement" width="900">
 </p>
 
-*Figure 8. Visualization and spatial resolution enhancement. PyCARD visualizes deconvolution results at the original spot resolution and can optionally generate model-derived higher-resolution representations.*
+*Visualization and spatial resolution enhancement. PyCARD visualizes deconvolution results at the original spot resolution and can optionally generate model-derived higher-resolution representations.*
 
 A basic example is:
 
